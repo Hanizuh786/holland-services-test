@@ -1,0 +1,555 @@
+{
+  "brand": "Holland Legal Services",
+  "tagline": "Resourceful | Reliable | Responsive",
+  "baseUrl": "https://www.holland-legal-services.ae",
+  "logo": "/brand/hls-logo.svg",
+  "experts": [
+    {
+      "name": "Hilda van der Tuin LL.M.",
+      "role": "Lawyer, mediator and international estate planner in the UAE",
+      "image": "https://www.holland-legal-services.ae/images/contact-us/hilda%20profile.jpg",
+      "fallback": "/images/hilda-upload.png",
+      "focus": "Wills, inheritance, family matters, disputes and cross-border legal strategy."
+    },
+    {
+      "name": "Paul Harts M.sc",
+      "role": "Business setup and UAE transition specialist",
+      "image": "https://www.holland-legal-services.ae/images/contact-us/paul%20profile.jpg",
+      "fallback": "/images/paul-placeholder.svg",
+      "focus": "Dubai company setup, entrepreneur guidance, remigration and practical UAE processes."
+    }
+  ],
+  "contact": {
+    "emails": [
+      "tuin@holland-legal-services.ae",
+      "harts@holland-legal-services.ae"
+    ],
+    "office": "Dubai Hills Business Park, Building 4, Seventh floor, United Arab Emirates",
+    "privacy": "For more digital privacy, Paul can be reached on Signal: paulharts.33 or Telegram: @Paul_Holland_Legal_Services.",
+    "promise": "You will get a personal and knowledgeable response, promise — but not necessarily within one day."
+  },
+  "services": [
+    {
+      "title": "Expat Will",
+      "slug": "expat-will",
+      "category": "Expat planning",
+      "lead": "A practical, tax-aware will route for expats in the UAE who want their family, guardianship choices and assets documented clearly.",
+      "keywords": [
+        "expat will UAE",
+        "Dutch expat will Dubai",
+        "Abu Dhabi will registration",
+        "Arabic legal translation"
+      ],
+      "forWho": [
+        "Dutch and Belgian expats with family or assets in the UAE",
+        "Couples who need mirror wills and guardian arrangements",
+        "Residents who want a UAE-ready will instead of relying on a foreign template"
+      ],
+      "sections": [
+        "A will for an expat is rarely only about inheritance wording. It normally touches tax position, residence, family composition, guardianship, location of assets, choice of registration route and the practical question of whether UAE authorities can work with the document when it matters.",
+        "The current website emphasizes that there is no one-size-fits-all solution because wills often have tax consequences. This SEO version keeps that message but turns the page into a clearer decision journey: why a UAE-specific will matters, what information is needed, what routes exist, and when a deeper legal review is required.",
+        "For Dutch families, cross-border issues require careful framing. A Dutch will, an English-language document or a template downloaded online may not be enough for UAE use. The page therefore explains the risk of translation-only approaches and drives visitors toward a structured intake rather than casual form submission."
+      ],
+      "process": [
+        "Initial intake and family structure review",
+        "Asset and guardianship information collection",
+        "Drafting and legal review",
+        "Arabic translation coordination where required",
+        "Registration route discussion and submission support"
+      ],
+      "faqs": [
+        [
+          "Can a foreign will simply be translated for UAE use?",
+          "The current website warns against assuming that a translated foreign will has legal value in the UAE. The safer route is to review the purpose, registration route and local requirements before relying on a document."
+        ],
+        [
+          "Is this only for wealthy expats?",
+          "No. The core issue is not only asset size; it is whether family, guardianship and practical authority issues are documented clearly before they are needed."
+        ],
+        [
+          "Should both spouses have separate wills?",
+          "In many family structures separate but coordinated wills are easier to manage, especially when guardianship, assets and beneficiaries differ."
+        ]
+      ]
+    },
+    {
+      "title": "VCC | Variable Capital Company",
+      "slug": "vcc-variable-capital-company",
+      "category": "Corporate structuring",
+      "lead": "A business-focused page for entrepreneurs and investors exploring whether a Variable Capital Company structure fits their regional or international plans.",
+      "keywords": [
+        "VCC UAE",
+        "Variable Capital Company",
+        "fund structure UAE",
+        "corporate structuring Dubai"
+      ],
+      "forWho": [
+        "Founders comparing holding, fund or investment structures",
+        "Entrepreneurs who want to understand governance before formation",
+        "International families or investors reviewing structured ownership"
+      ],
+      "sections": [
+        "A Variable Capital Company page should not be a short brochure. Visitors looking for VCC information usually need context: what the structure is meant to solve, which questions should be answered before formation, and how governance, banking, investor communication and compliance fit together.",
+        "This page positions Holland Legal Services as a practical navigator rather than as a generic incorporation provider. The content focuses on readiness, documentation, risk points and investor-facing clarity.",
+        "Because VCC matters can overlap with banking, tax, licensing and cross-border investor expectations, the page uses careful language and encourages a consultation before any structure is selected."
+      ],
+      "process": [
+        "Clarify business purpose and investor profile",
+        "Map jurisdictional and banking expectations",
+        "Review governance and control points",
+        "Prepare formation-readiness checklist",
+        "Coordinate next legal and administrative steps"
+      ],
+      "faqs": [
+        [
+          "Is a VCC suitable for every entrepreneur?",
+          "No. The page is designed to explain that structure follows business purpose; the wrong structure can create avoidable cost and complexity."
+        ],
+        [
+          "Can Holland Legal Services help before incorporation?",
+          "Yes, the page routes users toward early review so that banking, tax and governance questions are addressed before documents are filed."
+        ],
+        [
+          "Is this legal or tax advice automatically?",
+          "No. The website should present general orientation and invite a professional review for the specific situation."
+        ]
+      ]
+    },
+    {
+      "title": "Leaving the UAE?",
+      "slug": "leaving-the-uae",
+      "category": "Relocation and remigration",
+      "lead": "A structured remigration page for residents considering departure from the UAE, especially Dutch families and entrepreneurs with tax, healthcare, housing or asset questions.",
+      "keywords": [
+        "leaving the UAE",
+        "remigration Netherlands UAE",
+        "Dutch tax residency UAE",
+        "return to Netherlands from Dubai"
+      ],
+      "forWho": [
+        "Dutch residents planning to return to the Netherlands",
+        "Families where one person may stay in the UAE",
+        "Entrepreneurs concerned about tax residency and assets"
+      ],
+      "sections": [
+        "Leaving the UAE can be more complex than booking a flight and cancelling a lease. The current website highlights remigration, Dutch tax issues, healthcare, customs, importing a car, renting out a home and hidden tax residency triggers. This page turns those points into a structured checklist-driven advisory journey.",
+        "The page is deliberately practical. It explains that decisions about healthcare, cars, real estate, family arrangements and tax residency can interact. If one parent remains in the UAE, the tax and family implications may become more sensitive.",
+        "The conversion objective is a high-value consultation: visitors should understand that a short meeting can uncover hidden risks before they become expensive mistakes."
+      ],
+      "process": [
+        "Departure reason and destination mapping",
+        "Tax residency trigger review",
+        "Healthcare and insurance transition checklist",
+        "Car/import and household goods planning",
+        "Property, rent-out and family continuity review"
+      ],
+      "faqs": [
+        [
+          "Is remigration only a tax issue?",
+          "No. The current site mentions healthcare, customs, cars, housing and hidden residency triggers; the upgraded page collects these into one advisory route."
+        ],
+        [
+          "Can weekend stays affect tax residence?",
+          "The current site warns that even weekend stays can create hidden tax residency triggers. A specific assessment is required before decisions are made."
+        ],
+        [
+          "Is this useful if I am not Dutch?",
+          "Yes, many issues are broader than the Netherlands, although Dutch tax and remigration experience is a key focus."
+        ]
+      ]
+    },
+    {
+      "title": "Legalisations",
+      "slug": "legalisations",
+      "category": "Documents",
+      "lead": "Legalisation support for UAE documents intended for use in the European Union, with clear guidance on process, translations and practical routing.",
+      "keywords": [
+        "legalisation UAE documents EU",
+        "document legalisation Dubai",
+        "Dutch document legalisation UAE",
+        "attestation UAE"
+      ],
+      "forWho": [
+        "Residents who need UAE-issued documents accepted abroad",
+        "Companies preparing records for EU use",
+        "Families managing education, marriage, birth or corporate documents"
+      ],
+      "sections": [
+        "Document legalisation is a process problem as much as a legal problem. People often know what document they have but not which step, translation, attestation or embassy route is required for the receiving country.",
+        "The current services page states that Holland Legal Services legalizes documents from the UAE so those documents can be used in the European Union. This optimized page expands that into a clear service route with intake questions, document categories and expected decision points.",
+        "The design should reduce panic: users can identify the document type, destination country, required deadline and whether translation is needed before submitting the form."
+      ],
+      "process": [
+        "Identify document type and issuing authority",
+        "Confirm destination country and required use",
+        "Check translation and attestation needs",
+        "Coordinate legalisation route",
+        "Return completed document package or next-step guidance"
+      ],
+      "faqs": [
+        [
+          "Can every UAE document be legalised the same way?",
+          "No. The route depends on issuing authority, destination country and document purpose."
+        ],
+        [
+          "Do documents need translation?",
+          "Some documents may require translation depending on destination authority requirements."
+        ],
+        [
+          "Can the firm help with EU use cases?",
+          "The current services page explicitly refers to UAE documents being legalised for use in the European Union."
+        ]
+      ]
+    },
+    {
+      "title": "Labor disputes",
+      "slug": "labor-disputes",
+      "category": "Employment",
+      "lead": "Careful intake and practical direction for UAE labour conflict questions involving employees, employers, settlements and documentation.",
+      "keywords": [
+        "labor dispute UAE",
+        "employment dispute Dubai",
+        "Dutch employee UAE",
+        "UAE labour conflict legal help"
+      ],
+      "forWho": [
+        "Employees facing contract, salary or termination disputes",
+        "Employers needing clear documentation before escalation",
+        "Dutch-speaking residents who want plain-language guidance"
+      ],
+      "sections": [
+        "Labour disputes are usually uncomfortable because the legal question sits beside a human and financial problem. The website should not promise outcomes; it should help the visitor organize facts, documents, dates and communication history before the matter escalates.",
+        "This page is built around practical intake: employment contract, offer letter, salary evidence, termination notice, warning letters, visa status, end-of-service questions and whether settlement is realistic.",
+        "The page avoids generic legal language and positions Holland Legal Services as a direct, responsive point of contact for disciplined next steps."
+      ],
+      "process": [
+        "Collect contract and employment timeline",
+        "Review documents, payments and notices",
+        "Identify dispute type and urgency",
+        "Prepare communication or escalation strategy",
+        "Support settlement or next procedural step"
+      ],
+      "faqs": [
+        [
+          "Should I submit a labour complaint immediately?",
+          "Not always. First organize facts and documents so the legal route is chosen deliberately."
+        ],
+        [
+          "Can employers use the same intake?",
+          "Yes. Employers also benefit from clear documentation and controlled communication before taking action."
+        ],
+        [
+          "Do I need a lawyer for every dispute?",
+          "Some disputes can be solved by clear communication, but higher-risk cases should be reviewed before action is taken."
+        ]
+      ]
+    },
+    {
+      "title": "Rent disputes",
+      "slug": "rent-disputes",
+      "category": "Real estate",
+      "lead": "Guidance for rental disagreements in the UAE, including notices, handover issues, deposits, rent increases and landlord-tenant communication.",
+      "keywords": [
+        "rent dispute Dubai",
+        "UAE tenancy dispute",
+        "landlord tenant dispute UAE",
+        "rental dispute legal help Dubai"
+      ],
+      "forWho": [
+        "Tenants facing deposit, increase or eviction issues",
+        "Landlords needing structured communication",
+        "Residents who want to understand options before escalation"
+      ],
+      "sections": [
+        "Rent disputes often start with unclear notices, informal messages or uncertainty about deadlines. A strong page must help the user separate facts from assumptions: tenancy contract, notices, payment proof, handover condition, renewal terms and communication history.",
+        "This SEO page uses long-form guidance to capture visitors searching for rent increase, eviction, deposit and maintenance conflict help in Dubai and the wider UAE.",
+        "The page also routes users to contact quickly because rental deadlines and notice periods can make timing important."
+      ],
+      "process": [
+        "Review tenancy contract and renewal terms",
+        "Collect notices, payment proof and communication",
+        "Define dispute category and desired outcome",
+        "Prepare response or settlement route",
+        "Escalate only where appropriate"
+      ],
+      "faqs": [
+        [
+          "What documents should I prepare?",
+          "Tenancy contract, payment proof, notices, handover records, photos and message history are usually useful."
+        ],
+        [
+          "Can rent disputes be settled without formal escalation?",
+          "Often yes, but the settlement position should be documented clearly."
+        ],
+        [
+          "Is timing important?",
+          "Yes. Notice periods and response timing can affect strategy."
+        ]
+      ]
+    },
+    {
+      "title": "Filing for divorce",
+      "slug": "filing-for-divorce",
+      "category": "Family law",
+      "lead": "A discreet intake page for divorce-related questions involving cross-border families, assets, children and UAE/Dutch legal considerations.",
+      "keywords": [
+        "filing for divorce UAE",
+        "Dutch divorce Dubai",
+        "expat divorce UAE",
+        "family law Dubai Dutch"
+      ],
+      "forWho": [
+        "Expats considering separation or divorce",
+        "Families with children, assets or cross-border residence issues",
+        "Clients seeking discreet, structured legal direction"
+      ],
+      "sections": [
+        "A divorce page should not be sensational or thin. People searching for divorce help need clarity about process, documentation, residence, assets, children, communication and risk management.",
+        "This page is designed to be calm and practical. It does not promise a legal result. It explains what information should be prepared and encourages early advice before emotional decisions are turned into irreversible steps.",
+        "For Dutch families in the UAE, cross-border questions may matter: where people live, where assets are located, which documents exist and what arrangements are needed for children."
+      ],
+      "process": [
+        "Confidential intake and urgency review",
+        "Family, residence and asset mapping",
+        "Document collection and communication review",
+        "Options discussion and risk check",
+        "Next procedural or settlement step"
+      ],
+      "faqs": [
+        [
+          "Do I need to decide everything before contacting the firm?",
+          "No. Early contact can help organize the issues before decisions are made."
+        ],
+        [
+          "Is the page for Dutch clients only?",
+          "No, but Dutch/UAE cross-border context is a core strength."
+        ],
+        [
+          "Can children and guardianship questions be discussed?",
+          "Yes, family structure and children-related arrangements are part of the intake context."
+        ]
+      ]
+    },
+    {
+      "title": "Foundations",
+      "slug": "foundations",
+      "category": "Wealth and governance",
+      "lead": "Foundation setup and management support for families and entrepreneurs who want structure around wealth protection, succession and governance.",
+      "keywords": [
+        "foundation setup UAE",
+        "wealth protection foundation UAE",
+        "family foundation Dubai",
+        "succession planning UAE"
+      ],
+      "forWho": [
+        "Families planning wealth transfer",
+        "Entrepreneurs considering asset protection structures",
+        "Clients who want governance rather than ad-hoc ownership"
+      ],
+      "sections": [
+        "The current services page states that Holland Legal Services can set up a foundation for clients and families to protect and transfer wealth to future generations. This upgraded page expands that into a full governance story.",
+        "The page explains that foundations are not only a registration product. They require purpose, governance, control, beneficiary thinking, documents and future administration.",
+        "The SEO objective is to rank for foundation setup and succession planning searches while pushing serious clients toward a structured consultation."
+      ],
+      "process": [
+        "Clarify family and asset objectives",
+        "Map governance and control preferences",
+        "Select appropriate foundation route",
+        "Prepare setup and supporting documents",
+        "Plan ongoing administration and review"
+      ],
+      "faqs": [
+        [
+          "Is a foundation only for very wealthy families?",
+          "Not always. The question is whether structured governance and succession planning are needed."
+        ],
+        [
+          "Does setup end after registration?",
+          "No. Administration, governance and updates matter after formation."
+        ],
+        [
+          "Can a foundation support family succession?",
+          "The current services page specifically mentions protecting and transferring wealth to future generations."
+        ]
+      ]
+    },
+    {
+      "title": "Unpaid Invoices",
+      "slug": "unpaid-invoices",
+      "category": "Debt collection",
+      "lead": "A disciplined debt collection and unpaid invoice route for businesses that need clear communication, documentation and escalation options.",
+      "keywords": [
+        "unpaid invoices UAE",
+        "debt collection Dubai",
+        "invoice recovery UAE",
+        "commercial dispute Dubai"
+      ],
+      "forWho": [
+        "SMEs with overdue invoices",
+        "Service providers facing repeated payment delays",
+        "Companies that want structured collection without losing control"
+      ],
+      "sections": [
+        "Unpaid invoices damage cash flow and management focus. The page should help businesses move from frustration to evidence-based action: contract, invoice, delivery proof, reminders, payment promises and debtor details.",
+        "The page emphasizes proportionate action. Not every unpaid invoice should immediately become litigation, but every serious claim should be documented properly.",
+        "It also fits the firm’s fixed-price positioning where possible: businesses want predictable costs before chasing a debt."
+      ],
+      "process": [
+        "Review invoice, contract and delivery proof",
+        "Assess debtor response and payment history",
+        "Prepare demand or settlement communication",
+        "Escalate where proportionate",
+        "Track recovery and closure"
+      ],
+      "faqs": [
+        [
+          "Can old invoices be chased?",
+          "Possibly, but the evidence and limitation context should be reviewed."
+        ],
+        [
+          "Should I keep communicating informally?",
+          "Informal communication can help, but important admissions and payment promises should be preserved."
+        ],
+        [
+          "Is litigation always required?",
+          "No. A structured demand and settlement route may solve some matters before escalation."
+        ]
+      ]
+    },
+    {
+      "title": "Business Set Up",
+      "slug": "business-set-up",
+      "category": "Business formation",
+      "lead": "A bank-account-first business setup route for entrepreneurs who want more than a quick license: structure, banking readiness and practical launch support.",
+      "keywords": [
+        "business setup UAE",
+        "company formation Dubai",
+        "corporate bank account UAE",
+        "Dutch entrepreneurs Dubai"
+      ],
+      "forWho": [
+        "Dutch and Belgian entrepreneurs expanding to Dubai",
+        "Founders comparing free zone and mainland options",
+        "Businesses that need banking readiness, not only a license"
+      ],
+      "sections": [
+        "The current website emphasizes that a license can be obtained quickly, but asks what a company is worth without a corporate bank account. This upgraded page builds around that insight: formation should be designed around banking, activity, compliance and realistic operations.",
+        "The page supports the YouTube/TikTok funnel because many Dutch entrepreneurs search for Dubai company setup but need a stronger explanation of banking, VAT, corporate tax, activity selection and administration.",
+        "It avoids selling speed as the main benefit. The main benefit is fewer surprises after formation."
+      ],
+      "process": [
+        "Business activity and founder profile review",
+        "Free zone versus mainland decision support",
+        "Banking-readiness document planning",
+        "License and incorporation coordination",
+        "TRN, accounting and operational launch checklist"
+      ],
+      "faqs": [
+        [
+          "Is the fastest license always the best option?",
+          "No. The current site explicitly focuses on getting the company a multi-currency corporate bank account as fast as reasonably possible, not merely obtaining a license."
+        ],
+        [
+          "Can the page support Dutch entrepreneurs?",
+          "Yes. The site is structured for Dutch and Belgian entrepreneurs considering business setup in Dubai."
+        ],
+        [
+          "Is VAT relevant?",
+          "Yes. VAT and corporate tax considerations should be part of business setup planning."
+        ]
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "title": "VAT #",
+      "slug": "vat-number",
+      "lead": "A plain-language explanation page for VAT, Tax Registration Number readiness and why entrepreneurs should not treat tax registration as an afterthought.",
+      "keywords": [
+        "VAT UAE",
+        "TRN UAE",
+        "tax registration number Dubai",
+        "Dutch entrepreneur VAT UAE"
+      ],
+      "sections": [
+        "A VAT page should serve entrepreneurs who search for practical answers after company formation. Visitors often ask when VAT applies, where the Tax Registration Number fits in the process and what administration should be prepared before invoices are issued.",
+        "This content should be treated as general orientation, not tax advice. The page drives users to a consultation when facts matter: business activity, expected revenue, place of supply, invoicing model and cross-border services.",
+        "The SEO purpose is to capture business setup visitors who are already thinking about banking and compliance."
+      ],
+      "faqs": [
+        [
+          "Is VAT registration always required immediately?",
+          "Not always. The correct position depends on the business facts and thresholds, so the site should avoid one-size-fits-all wording."
+        ],
+        [
+          "What is a TRN?",
+          "A Tax Registration Number identifies a business for tax-related administration once registration applies."
+        ],
+        [
+          "Should VAT be discussed during business setup?",
+          "Yes. Early planning reduces rework in invoicing and accounting."
+        ]
+      ]
+    },
+    {
+      "title": "UAE inheritance law and the Dutch",
+      "slug": "uae-inheritance-law-and-the-dutch",
+      "lead": "An SEO authority page for Dutch families trying to understand how UAE inheritance questions can interact with residence, wills, guardianship and assets.",
+      "keywords": [
+        "UAE inheritance law Dutch",
+        "Dutch expat inheritance UAE",
+        "inheritance Dubai Dutch family",
+        "will UAE Dutch expat"
+      ],
+      "sections": [
+        "Dutch residents in the UAE often assume that home-country planning automatically solves UAE practical issues. This page explains why inheritance questions should be reviewed through a UAE lens when assets, residence or family life are connected to the Emirates.",
+        "The content links naturally to the Expat Will page. It explains that inheritance planning is not only about a document; it touches guardianship, asset location, registration route, translation and tax considerations.",
+        "The wording remains careful and avoids definitive legal conclusions because the correct route depends on nationality, residence, religion, assets, family structure and previous documents."
+      ],
+      "faqs": [
+        [
+          "Is a Dutch will enough in the UAE?",
+          "The current site warns against assuming a translated will from another country has legal value in the UAE, so a specific review is recommended."
+        ],
+        [
+          "Should inheritance planning include guardianship?",
+          "For families with children, guardianship decisions should be discussed as part of the planning process."
+        ],
+        [
+          "Is tax relevant?",
+          "The current website states that wills often have tax consequences, which is why individualized review matters."
+        ]
+      ]
+    },
+    {
+      "title": "Become a resident in the Netherlands",
+      "slug": "become-a-resident-in-the-netherlands",
+      "lead": "A Netherlands residency orientation page for people moving from the UAE or evaluating Dutch residence, family and business implications.",
+      "keywords": [
+        "become resident Netherlands UAE",
+        "move to Netherlands from Dubai",
+        "Dutch residency guidance UAE",
+        "remigration Netherlands UAE"
+      ],
+      "sections": [
+        "This page supports visitors who are not simply leaving the UAE but actively planning residence in the Netherlands. The decision may involve family, tax, healthcare, housing, business ownership and timing.",
+        "It connects to the Leaving the UAE page but focuses on the destination side: what should be prepared before arrival, which documents may need legalisation and when tax residence or registration questions should be considered.",
+        "The page is written for orientation and lead generation, not as a government instruction manual."
+      ],
+      "faqs": [
+        [
+          "Is this only for Dutch nationals?",
+          "No. The page can support anyone considering residence questions connected with the Netherlands and the UAE."
+        ],
+        [
+          "Does this overlap with leaving the UAE?",
+          "Yes. Leaving one country and becoming resident in another should be planned together."
+        ],
+        [
+          "Can legalised documents be needed?",
+          "Yes, some destination-country processes may require properly legalised documents."
+        ]
+      ]
+    }
+  ]
+}
