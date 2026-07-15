@@ -5,7 +5,7 @@ export default function ExpertStrip({ compact = false }) {
     <section className={compact ? "experts compact" : "experts"}>
       <div className="sectionHead">
         <p className="eyebrow">Direct expert contact</p>
-        <h2>You know who handles your matter</h2>
+        <h2>People first, not layers</h2>
         <p>
           Visitors should see who they are contacting. The site therefore uses
           expert cards across service, insight and contact pages.

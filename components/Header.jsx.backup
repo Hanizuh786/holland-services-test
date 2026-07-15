@@ -32,10 +32,10 @@ export default function Header() {
           How we work
         </Link>
         <Link onClick={close} href="/privacy-on">
-          Privacy
+          Privacy=ON
         </Link>
         <Link onClick={close} className="navCta" href="/contact">
-          Contact us
+          Contact Us
         </Link>
       </nav>
     </header>

@@ -5,23 +5,23 @@ This is the full SEO-focused multi-page version, not a single-page landing site.
 
 ## Included routes
 - `/` Home
-- `/contact` Contact us
+- `/contact` Contact Us
 - `/about` How the law firm works
 - `/privacy` Privacy policy placeholder
-- `/privacy-on` Privacy page
+- `/privacy-on` Privacy=ON page
 - `/services` Services index
 - `/services/expat-will`
 - `/services/vcc-variable-capital-company`
 - `/services/leaving-the-uae`
 - `/services/legalisations`
-- `/services/employment-settlement-support`
+- `/services/labor-disputes`
 - `/services/rent-disputes`
 - `/services/filing-for-divorce`
 - `/services/foundations`
 - `/services/unpaid-invoices`
 - `/services/business-set-up`
 - `/insights/vat-number`
-- `/insights/uae-inheritance-law`
+- `/insights/uae-inheritance-law-and-the-dutch`
 - `/insights/become-a-resident-in-the-netherlands`
 
 ## Stack

@@ -44,7 +44,7 @@ export default function ContactForm({ defaultService = "" }) {
         <select name="lawyer" onChange={update}>
           <option>General</option>
           <option>Hilda van der Tuin LL.M.</option>
-          <option>Paul Harts MSc</option>
+          <option>Paul Harts M.sc</option>
         </select>
       </div>
       <select name="service" value={form.service} onChange={update}>

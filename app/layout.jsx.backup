@@ -5,25 +5,25 @@ import site from "../data/siteData.json";
 export const metadata = {
   metadataBase: new URL(site.baseUrl),
   title: {
-    default: "UAE legal support and Netherlands-related legal services | Holland Legal Services",
+    default: "Holland Legal Services | Dutch Legal Experts in Dubai, UAE",
     template: "%s | Holland Legal Services",
   },
   description:
-    "Legal support for UAE matters, Netherlands-related investments, real estate acquisitions and cross-border legal issues.",
+    "SEO-focused Dutch legal services website for expats, entrepreneurs and families in Dubai and the UAE.",
   keywords: [
-    "UAE legal support",
-    "Netherlands-related legal services",
-    "UAE wills",
-    "company setup UAE",
-    "UAE document legalisation Netherlands",
-    "real estate legal support UAE",
-    "UAE inheritance law",
+    "Dutch lawyer Dubai",
+    "Dutch legal services UAE",
+    "Expat Will UAE",
+    "business setup Dubai",
+    "legalisation UAE",
+    "rent disputes Dubai",
+    "UAE inheritance law Dutch",
   ],
   alternates: { canonical: "/" },
   openGraph: {
     title: "Holland Legal Services",
     description:
-      "UAE legal support and Netherlands-related legal services.",
+      "Resourceful, reliable and responsive legal services in the UAE.",
     type: "website",
     locale: "en_AE",
   },

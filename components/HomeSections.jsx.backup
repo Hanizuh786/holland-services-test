@@ -10,7 +10,7 @@ export default function HomeSections() {
     <p className="eyebrow">{site.tagline}</p>
 
     <h1>
-      UAE legal support and Netherlands-related legal services
+      Legal Services in the UAE for Dutch & Belgian Entrepreneurs and Expats
     </h1>
 
     <p className="lead">
@@ -56,7 +56,7 @@ export default function HomeSections() {
       <ExpertStrip />
       <section className="insightStrip">
         <div className="sectionHead">
-          <p className="eyebrow">Legal guides and answers</p>
+          <p className="eyebrow">Guides & Answers</p>
           <h2>Clear explanations for common questions about doing business in the UAE</h2>
         </div>
         <div className="cards three">

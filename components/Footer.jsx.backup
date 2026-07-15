@@ -27,7 +27,7 @@ export default function Footer() {
       <div>
         <h4>Legal</h4>
         <Link href="/privacy">Privacy</Link>
-        <Link href="/privacy-on">Privacy</Link>
+        <Link href="/privacy-on">Privacy=ON</Link>
       </div>
     </footer>
   );
