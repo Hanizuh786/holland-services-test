@@ -5,42 +5,39 @@ import CTA from "./CTA";
 export default function HomeSections() {
   return (
     <>
-     <section className="hero">
-  <div className="heroCopy">
-    <p className="eyebrow">{site.tagline}</p>
-
+    <section className="hero">
+  <div className="container">
     <h1>
-      UAE legal support and Netherlands-related legal services
+      Legal guidance for individuals, families, businesses and investors
     </h1>
 
-    <p className="lead">
-      Start a company in Dubai, arrange your legal structure, and avoid costly
-      mistakes. We provide direct expert support for business setup, wills,
-      document legalisation, and corporate structuring — tailored for Dutch and
-      Belgian clients.
+    <p className="hero-lead">
+      Helping clients make informed decisions with clarity, confidence and practical legal support.
     </p>
 
-    <div className="actions">
-      <Link className="btn" href="/services">
-        Explore services <b>→</b>
+    <p className="hero-description">
+      Whether you are protecting your family, structuring a business, managing investments or resolving a dispute, our team provides clear guidance and practical solutions tailored to your circumstances.
+    </p>
+
+    <div className="hero-actions">
+      <Link href="/services" className="btn btn-primary">
+        Explore services
       </Link>
-      <Link className="ghost" href="/contact">
+
+      <Link href="/contact" className="btn btn-secondary">
         Book a consultation
       </Link>
     </div>
-  </div>
 
-  <div className="heroPanel">
-    <p>
-      Clear advice. Fixed pricing where possible. No outsourcing. Direct contact
-      with experts who understand both Dutch and UAE systems.
+    <p className="hero-note">
+      Clear advice. Transparent communication. Personal attention. Practical solutions focused on your goals.
     </p>
   </div>
 </section>
       <section className="serviceIndex">
         <div className="sectionHead">
           <p className="eyebrow">Services</p>
-          <h2>Choose your situation and find the right next step</h2>
+          <h2>Find the support that fits your situation</h2>
         </div>
         <div className="cards">
           {site.services.map((s) => (
@@ -57,7 +54,7 @@ export default function HomeSections() {
       <section className="insightStrip">
         <div className="sectionHead">
           <p className="eyebrow">Legal guides and answers</p>
-          <h2>Clear explanations for common questions about doing business in the UAE</h2>
+          <h2>Practical insights and useful guidance</h2>
         </div>
         <div className="cards three">
           {site.insights.map((x) => (
@@ -71,7 +68,7 @@ export default function HomeSections() {
       </section>
       <CTA
         title="Start your business or resolve your Legal Situation"
-        text="ell us your situation and get a clear next step. Use the intake form or book a consultation — we will guide you directly"
+        text="Tell us your situation and get a clear next step. Book a consultation — we will guide you directly"
       />
       
 
