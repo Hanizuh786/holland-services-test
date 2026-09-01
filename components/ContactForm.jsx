@@ -21,7 +21,7 @@ export default function ContactForm({ defaultService = "" }) {
     });
   const submit = (e) => {
     e.preventDefault();
-    send(form);
+    send({ ...form, pageUrl: window.location.href });
   };
   return (
     <form className="form" onSubmit={submit}>
@@ -71,12 +71,12 @@ export default function ContactForm({ defaultService = "" }) {
       </button>
       {isSuccess && (
         <p className="success">
-          Your enquiry has been received by the website API.
+          Your enquiry has been received.
         </p>
       )}
       {error && (
         <p className="error">
-          Submission failed. Check API server or SMTP settings.
+          Submission failed. Please try again or contact us by e-mail.
         </p>
       )}
     </form>

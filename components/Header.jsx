@@ -46,9 +46,6 @@ export default function Header() {
         <Link onClick={close} href="/services" aria-current={current("/services") ? "page" : undefined}>
           Services
         </Link>
-        <Link onClick={close} href="/insights" aria-current={current("/insights") ? "page" : undefined}>
-          Insights
-        </Link>
         <Link onClick={close} href="/newsletter" aria-current={current("/newsletter") ? "page" : undefined}>
           Newsletter
         </Link>

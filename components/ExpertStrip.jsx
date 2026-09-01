@@ -8,7 +8,7 @@ export default function ExpertStrip({ compact = false }) {
         <h2>You know who handles your matter</h2>
         <p>
           Visitors should see who they are contacting. The site therefore uses
-          expert cards across service, insight and contact pages.
+          expert cards across service, newsletter and contact pages.
         </p>
       </div>
       <div className="expertGrid">

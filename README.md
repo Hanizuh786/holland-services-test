@@ -20,9 +20,10 @@ This is the full SEO-focused multi-page version, not a single-page landing site.
 - `/services/foundations`
 - `/services/unpaid-invoices`
 - `/services/business-set-up`
-- `/insights/vat-number`
-- `/insights/uae-inheritance-law`
-- `/insights/become-a-resident-in-the-netherlands`
+- `/newsletter`
+- `/newsletter/vat-number`
+- `/newsletter/uae-inheritance-law-and-the-dutch`
+- `/newsletter/become-a-resident-in-the-netherlands`
 
 ## Stack
 - Next.js App Router

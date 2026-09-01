@@ -11,14 +11,15 @@ function formatDate(date) {
 
 export default function PublicationCard({ publication }) {
   const isWebsitePost = publication.source === "Website";
-  const href = publication.externalUrl || `/insights/${publication.slug}`;
+  const sourceLabel = isWebsitePost ? "Hilda's Blogs" : publication.source;
+  const href = publication.externalUrl || `/newsletter/${publication.slug}`;
   const action = isWebsitePost
     ? "Read article"
     : `View on ${publication.source}`;
   const date = formatDate(publication.date);
 
   return (
-    <article className="publicationCard">
+    <article className={`publicationCard ${publication.image ? "hasImage" : "noImage"}`}>
       <Link
         className="publicationCardLink"
         href={href}
@@ -26,23 +27,19 @@ export default function PublicationCard({ publication }) {
         rel={publication.externalUrl ? "noreferrer" : undefined}
         aria-label={`${action}: ${publication.title}`}
       >
-        <div className="publicationVisual">
-          {publication.image ? (
+        {publication.image && (
+          <div className="publicationVisual">
             <img
               src={publication.image}
               alt={publication.imageAlt || ""}
               loading="lazy"
             />
-          ) : (
-            <div className="publicationMonogram" aria-hidden="true">
-              HLS
-            </div>
-          )}
-          <span className={`sourceBadge source${publication.source}`}>
-            {publication.source}
-          </span>
-        </div>
+          </div>
+        )}
         <div className="publicationBody">
+          <span className={`sourceBadge source${publication.source}`}>
+            {sourceLabel}
+          </span>
           {(date || publication.author) && (
             <p className="publicationMeta">
               {date && <time dateTime={publication.date}>{date}</time>}

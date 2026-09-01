@@ -1,10 +1,8 @@
 import site from "../data/siteData.json";
-import { getAllInsights } from "../lib/insights";
 import Link from "next/link";
 import ExpertStrip from "./ExpertStrip";
 import CTA from "./CTA";
 export default function HomeSections() {
-  const insights = getAllInsights().slice(0, 3);
   return (
     <>
     <section className="hero">
@@ -47,27 +45,12 @@ export default function HomeSections() {
               <p>{s.category}</p>
               <h3>{s.title}</h3>
               <span>{s.lead}</span>
-              <b>Read page →</b>
+              <span className="cardAction">Read page →</span>
             </Link>
           ))}
         </div>
       </section>
       <ExpertStrip />
-      <section className="insightStrip">
-        <div className="sectionHead">
-          <p className="eyebrow">Legal guides and answers</p>
-          <h2>Practical insights and useful guidance</h2>
-        </div>
-        <div className="cards three">
-          {insights.map((x) => (
-            <Link className="card" key={x.slug} href={`/insights/${x.slug}`}>
-              <h3>{x.title}</h3>
-              <span>{x.lead}</span>
-              <b>Open insight →</b>
-            </Link>
-          ))}
-        </div>
-      </section>
       <CTA
         title="Start your business or resolve your Legal Situation"
         text="Tell us your situation and get a clear next step. Book a consultation — we will guide you directly"

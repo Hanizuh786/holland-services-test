@@ -9,6 +9,16 @@ const nextConfig = {
         destination: "/admin/index.html",
         permanent: false,
       },
+      {
+        source: "/insights",
+        destination: "/newsletter",
+        permanent: true,
+      },
+      {
+        source: "/insights/:slug",
+        destination: "/newsletter/:slug",
+        permanent: true,
+      },
     ];
   },
 };
