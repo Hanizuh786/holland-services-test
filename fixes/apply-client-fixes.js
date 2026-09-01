@@ -1,16 +1,4 @@
-/*
-  Holland Legal Services - client copy/naming fix patch
-  Purpose: Apply the requested English, naming, SEO and service copy fixes WITHOUT deleting existing files, routes or components.
 
-  How to use:
-  1. Copy this file into the root of the original holland-services-test project.
-  2. Run: node apply-client-fixes.js
-  3. Run: npm run dev
-
-  The script creates backups before modifying files:
-  - data/siteData.backup.json
-  - *.backup before text-file patches
-*/
 
 const fs = require('fs');
 const path = require('path');

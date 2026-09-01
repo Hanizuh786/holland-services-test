@@ -12,15 +12,32 @@
     "@reduxjs/toolkit": "latest",
     "cors": "latest",
     "express": "latest",
-    "next": "^15.3.5",
+    "gray-matter": "^4.0.3",
+    "next": "^15.5.25",
     "nodemailer": "latest",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0",
     "react-redux": "latest"
   },
   "devDependencies": {
     "eslint": "latest",
     "eslint-config-next": "latest",
     "prettier": "3.9.0"
+  },
+  "overrides": {
+    "minimatch@3.1.5": {
+      "brace-expansion": "1.1.18"
+    },
+    "minimatch@10.2.5": {
+      "brace-expansion": "5.0.9"
+    },
+    "browserslist": "4.28.8",
+    "@eslint/eslintrc": {
+      "js-yaml": "4.3.2"
+    },
+    "nanoid": "3.3.18",
+    "postcss": "8.5.26",
+    "sharp": "0.35.4"
   }
 }

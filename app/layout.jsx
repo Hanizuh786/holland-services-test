@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Providers } from "./providers";
 import site from "../data/siteData.json";
+import Script from "next/script";
 
 export const metadata = {
   metadataBase: new URL(site.baseUrl),
@@ -34,6 +35,21 @@ export default function RootLayout({ children }) {
     <html lang="en-AE">
       <body>
         <Providers>{children}</Providers>
+        <Script
+          src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+          strategy="beforeInteractive"
+        />
+        <Script id="netlify-identity-redirect" strategy="afterInteractive">
+          {`if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", function (user) {
+              if (!user) {
+                window.netlifyIdentity.on("login", function () {
+                  window.location.href = "/admin/";
+                });
+              }
+            });
+          }`}
+        </Script>
       </body>
     </html>
   );

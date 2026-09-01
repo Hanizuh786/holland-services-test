@@ -1,0 +1,37 @@
+backend:
+  name: git-gateway
+  branch: main
+
+logo_url: /brand/hls-logo.svg
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: insights
+    label: Blog posts
+    label_singular: Blog post
+    folder: content/insights
+    create: true
+    delete: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    summary: "{{title}} — {{date}}"
+    sortable_fields: [title, date]
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Summary, name: lead, widget: text, hint: "Used on the blog listing and by search engines." }
+      - { label: Publish date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, required: false }
+      - { label: Author, name: author, widget: string, required: false }
+      - { label: Featured image, name: image, widget: image, required: false }
+      - { label: Image description, name: imageAlt, widget: string, required: false }
+      - { label: SEO keywords, name: keywords, widget: list, required: false }
+      - { label: Article, name: body, widget: markdown }
+      - label: Frequently asked questions
+        name: faqs
+        widget: list
+        required: false
+        fields:
+          - { label: Question, name: question, widget: string }
+          - { label: Answer, name: answer, widget: text }

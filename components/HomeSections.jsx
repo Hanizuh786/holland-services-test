@@ -1,8 +1,10 @@
 import site from "../data/siteData.json";
+import { getAllInsights } from "../lib/insights";
 import Link from "next/link";
 import ExpertStrip from "./ExpertStrip";
 import CTA from "./CTA";
 export default function HomeSections() {
+  const insights = getAllInsights().slice(0, 3);
   return (
     <>
     <section className="hero">
@@ -57,7 +59,7 @@ export default function HomeSections() {
           <h2>Practical insights and useful guidance</h2>
         </div>
         <div className="cards three">
-          {site.insights.map((x) => (
+          {insights.map((x) => (
             <Link className="card" key={x.slug} href={`/insights/${x.slug}`}>
               <h3>{x.title}</h3>
               <span>{x.lead}</span>

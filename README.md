@@ -48,9 +48,23 @@ The code uses the publicly visible Holland Legal Services image paths for Hilda 
 All main website content is in:
 `data/siteData.json`
 
+Blog posts are Markdown files in `content/insights`. After Netlify setup, authorized editors can create and publish them at `/admin/` without editing code.
+
+## Netlify deployment and blog CMS
+
+1. In Netlify, choose **Add new project → Import an existing project**, select this GitHub repository, and keep `main` as the production branch.
+2. Netlify will read `netlify.toml` and use `npm run build` with `.next` as the publish directory. Modern Next.js support is applied automatically; do not pin the legacy Next.js plugin.
+3. Go to **Integrations → Identity → Netlify Identity**, enable it, and set registration to **Invite only**.
+4. Under Identity services, enable **Git Gateway** and connect it to this repository.
+5. During testing, use the generated `https://YOUR-SITE.netlify.app/admin/` address. In Identity, invite the client's email address and test creating and publishing a post.
+6. If the contact form should send email, copy the existing SMTP values into Netlify environment variables: `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, and optionally `SMTP_SECURE=true`.
+7. After testing, add `holland-legal-services.ae` under **Domain management → Production domains**, make it the primary domain, and apply the DNS records Netlify provides. The CMS will then be available at `https://holland-legal-services.ae/admin/`.
+
+Publishing in the CMS commits the article and any uploaded image to GitHub. That commit triggers a fresh Netlify deployment and also continues to trigger the existing Vercel deployment.
+
 ## API
 Contact form posts to:
-`POST http://localhost:4000/api/contact`
+`POST /api/contact`
 
-SMTP is optional and configured by environment variables.
+This Next.js route works on both Netlify and Vercel. The standalone Express server remains available for local/legacy use with `npm run api`. SMTP is optional and configured by environment variables.
 # holland-services-test
