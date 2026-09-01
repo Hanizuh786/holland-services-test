@@ -24,6 +24,8 @@ collections:
       - { label: Summary, name: lead, widget: text, hint: "Used on the blog listing and by search engines." }
       - { label: Publish date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, required: false }
       - { label: Author, name: author, widget: string, required: false }
+      - { label: Publication source, name: source, widget: select, options: [Website, LinkedIn, Facebook], default: Website }
+      - { label: External post URL, name: externalUrl, widget: string, required: false, hint: "Add the LinkedIn or Facebook post URL when the source is social media." }
       - { label: Featured image, name: image, widget: image, required: false }
       - { label: Image description, name: imageAlt, widget: string, required: false }
       - { label: SEO keywords, name: keywords, widget: list, required: false }

@@ -26,6 +26,7 @@ export default function Footer() {
       </div>
       <div>
         <h4>Legal</h4>
+        <Link href="/newsletter">Newsletter</Link>
         <Link href="/privacy">Privacy</Link>
         <Link href="/privacy-on">Privacy</Link>
       </div>
